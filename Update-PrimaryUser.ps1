@@ -18,8 +18,8 @@ Unlock-SecretStore -Password ((Import-Clixml C:\Windows\CSOD\Key\Automation.xml)
 $date = Get-Date -Format yyyy-MM-dd-hh-mm-ss
 $filename = "Update-PrimayUser_" + $date
 $error_log = @()
-$clientId = "78a202bc-7de5-45ef-b8df-167d1544f012"
-$tenantId = "7f943f02-1859-4b47-a7fc-f910aaa46cf7"
+$clientId = 
+$tenantId = 
 $secureSecret = Get-Secret -Name IntuneAutomation
 
 # Getting Access Token
